@@ -75,7 +75,7 @@ int main() {
     int n,count = 0;
     cout << "No. of Arrays : ";
     cin >> n;
-    n = n+1;
+    n = n+1
     int p[n];
     genInputFile(p,n);
     getInput(p,n);
