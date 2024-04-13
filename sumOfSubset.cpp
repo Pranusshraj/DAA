@@ -30,7 +30,7 @@ int main() {
     int n,target;
     
     cout << "No. of Elements : ";
-        cin >> n;
+    cin >> n;
     int A[n];
 
     cout << "Elements of the Array : " << endl;
