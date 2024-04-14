@@ -20,9 +20,9 @@ void sortFinishTime(int S[],int s[], int f[], int n) {
 	for(int i=0;i<n-1;i++) {
      		for(int j=0;j<n-i-1;j++) {
    			if(f[j] > f[j+1]) {
-			    	swap(f[j],f[j+1]);
-			    	swap(S[j],S[j+1]);
-    				swap(s[j],s[j+1]);
+				swap(f[j],f[j+1]);
+				swap(S[j],S[j+1]);
+				swap(s[j],s[j+1]);
    			}
   		}
  	}
