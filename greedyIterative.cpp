@@ -5,7 +5,7 @@ using namespace std;
 set<int> Greedy_Activity_Selector(int S[],int s[],int f[],int n) {
 	set<int> A;
   	A.insert(S[0]);
- 	int k = 0,count=1;
+ 	int k = 0;
  	for(int m=1;m<n;m++) {
   		if(s[m] >= f[k]) {
 	   		A.insert(S[m]);
