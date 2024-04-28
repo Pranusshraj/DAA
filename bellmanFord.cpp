@@ -54,8 +54,8 @@ class graph {
     }
 
     void relax(int u,int v,int w) {
-        if(vertex[v].d > (vertex[u].d+w)) {
-            vertex[v].d = vertex[u].d + u;
+        if(vertex[v].d > (vertex[u].d + w)) {
+            vertex[v].d = vertex[u].d + w;
             vertex[v].pi = u;
         }
     }
